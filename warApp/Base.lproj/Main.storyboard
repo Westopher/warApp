@@ -98,6 +98,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="eB8-OG-DLv" id="o83-qC-3Di"/>
+                        <outlet property="leftScoreLabel" destination="VWF-F9-hIF" id="gzt-cz-I5n"/>
+                        <outlet property="rightImageView" destination="1q6-e3-v7N" id="dec-fU-rJC"/>
+                        <outlet property="rightScoreLabel" destination="XVg-79-pAL" id="tNl-te-zUa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
