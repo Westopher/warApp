@@ -12,16 +12,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var leftImageView: UIImageView!
     @IBOutlet weak var rightImageView: UIImageView!
-    
+
+    @IBOutlet weak var rightScoreLabel: UILabel!
+    @IBOutlet weak var leftScoreLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    @IBOutlet weak var rightScoreLabel: UILabel!
     
-    @IBOutlet weak var leftScoreLabel: UILabel!
+    @IBAction func dealTapped(_ sender: Any) {
+        print("deal")
+    }
     
 }
 
