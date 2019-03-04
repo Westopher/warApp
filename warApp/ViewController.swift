@@ -46,5 +46,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func newGamePressed(_ sender: Any) {
+        rightScoreLabel.text = "\(0)"
+        leftScoreLabel.text = "\(0)"
+    }
+    
 }
 
